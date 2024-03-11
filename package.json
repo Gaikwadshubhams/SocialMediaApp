@@ -1,12 +1,12 @@
 {
   "name": "socialmediabackend",
   "version": "1.0.0",
-  "description": "this is a socail media backend poject",
+  "description": "this is a social media backend project",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "backend",
